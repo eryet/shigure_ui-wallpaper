@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  text-transform: uppercase;
+  color: var(--white-color);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 120px;
+}
+
+.anime-list {
+  margin: 100px 0px 0px;
+  padding: 0px 30px;
+}
+
+/* .title {
+  text-transform: uppercase;
+  margin: 0px auto 60px;
+  width: fit-content;
+  max-width: 1220px;
+  text-align: center;
+  color: #ffd8d8;
+  text-shadow: 0.05vw 0vw 0.25vw #ffd8d8, 0.1vw 0vw 0.25vw #ffd8d8,
+    0.2vw 0vw 0.25vw #ffd8d8, 0.05vw 0vw 0vw #f25757, 0.1vw 0vw 0vw #f25757,
+    0.2vw 0vw 0vw #f25757, 0.05vw 0vw 0.1vw #f25757, 0.1vw 0vw 0.1vw #f25757,
+    0.2vw 0vw 0.1vw #f25757, 0.05vw 0vw 2vw #f25757, 0.1vw 0vw 2vw #f25757,
+    0.2vw 0vw 2vw #f25757, 0.05vw 0vw 1vw #e50b0b, 0.1vw 0vw 1vw #e50b0b,
+    0.2vw 0vw 5vw #e50b0b, 0.05vw 0vw 5vw #e50b0b, 0.1vw 0vw 20vw #e50b0b,
+    0.2vw 0vw 10vw #e50b0b, 0.05vw 0vw 10vw #e50b0b, 0.1vw 0vw 30vw #e50b0b,
+    0.2vw 0vw 10vw #e50b0b;
+} */
+
+.title {
+  text-transform: uppercase;
+  margin: 0px auto 0px;
+  width: fit-content;
+  max-width: 1700px;
+  text-align: center;
+  color: #fff;
+}
+
+.shigure-ui {
+  position: fixed;
+  pointer-events: none;
+  width: 932px;
+  height: 720px;
+}
+
+.shigure-ui img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.1s ease;
+}
+
+body,
+html,
+#app {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#app {
+  overflow: hidden;
+  touch-action: pan-up;
+}
+
+#app canvas {
+  display: block;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+}
