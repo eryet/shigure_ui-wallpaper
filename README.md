@@ -1,0 +1,1 @@
+Funny that i want release it when loli ui is everywhere, but completely forget it until today (26/5/2024), well better late than never, swap for higher quality video for local use as i use shitty version for hosting on vercel
