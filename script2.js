@@ -2,6 +2,7 @@
 // import { neonCursor } from "https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js";
 import { neonCursor } from "./js/threejs-toys.module.cdn.min.js";
 // modified version
+// only webm video allowed https://steamcommunity.com/app/431960/discussions/2/3183345176707029464/
 
 // additive blending
 // discourse.threejs.org/t/does-three-js-support-additive-blending-for-opaque/36190/6
